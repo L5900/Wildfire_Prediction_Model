@@ -1,1 +1,1 @@
-# Wildfire_Prediction_Model
+# Wildfire Prediction Model
