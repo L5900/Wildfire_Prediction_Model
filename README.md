@@ -1,41 +1,17 @@
-# 🔥 Wildfire Prediction in Italy
+# Wildfire Risk Prediction in Italy
 
-This project explores the use of machine learning to predict wildfires in Italy based on spatial, temporal, and environmental variables. It forms part of a broader investigation into how data science can inform climate resilience and disaster response.
+This project explores the use of machine learning to predict wildfires in Italy based on spatial, temporal, and environmental variables. I built three toy models that predict wildfire risk in Italy, trying to understand what is the minimal amount of features needed to obtain reasonable prediction at low computational cost. The data is taken from NASA open source satellites, and I found it a good excercise to gain familiarity with sci-kit learn, as well as to learn handling very unstructured data.
 
-## 📁 Project Overview
+## Disclaimer 1:## I used generative AI to help me with many parts of the code
 
+## Project Overview
+
+- `Description`: Is a 4-slides presentation describing the dataset and the metrics and results of the models, together with visualisations;
 - `4_minimal_model.ipynb`: Develops and evaluates predictive models using an enriched dataset.
 - `visualisations.ipynb`: Includes visual analysis of wildfire patterns.
 - `training_base_enriched_power.csv`: The dataset used for model training and validation.
 
-## 🎯 Objective
 
-To identify patterns and predictors of wildfire occurrence in Italy and evaluate the performance of simple predictive models. This work supports interdisciplinary research at the intersection of political science, statistics, and environmental risk analysis.
+## License
 
-## 🛠️ How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   cd YOUR_REPO_NAME
-   ```
-
-2. Open the notebooks:
-   ```bash
-   jupyter notebook
-   ```
-
-3. Install dependencies (if needed):
-   ```bash
-   pip install pandas scikit-learn matplotlib seaborn
-   ```
-
-## 🧠 Motivation
-
-> 🌍 **Why Wildfire Prediction in Italy?**
->
-> Southern Europe faces increasing wildfire risks due to climate change and land use dynamics. This project uses data to move from retrospective analysis to predictive insight — supporting early intervention strategies and policymaking. It also contributes to the PaCE initiative’s focus on spatial and temporal modeling of conflict and crisis data.
-
-## 📜 License
-
-MIT License — feel free to use, adapt, and share with attribution.
+Feel free to use, adapt, and share with or without attribution :)
